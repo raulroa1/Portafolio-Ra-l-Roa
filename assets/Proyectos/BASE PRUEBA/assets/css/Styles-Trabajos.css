@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc; /* Amarillo claro */
+    color: #333333; /* Texto negro */
+}
+
+.trabajo-1-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Amarillo */
+}
+
+.fecha,
+.mecanico,
+.diagnostico,
+.materiales,
+.descripcion {
+    margin-bottom: 10px;
+}
+
+.materiales {
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #ffcc00; /* Amarillo */
+}
+
+a:hover {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+}
+
+.centered-img {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 50%; /* Hacer la imagen un poco más pequeña */
+    height: auto;
+}
+
+.trabajo-2-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Amarillo */
+}
+
+.fecha,
+.mecanico,
+.diagnostico,
+.materiales,
+.descripcion {
+    margin-bottom: 10px;
+}
+
+.materiales {
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #ffcc00; /* Amarillo */
+}
+
+a:hover {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+}
+
+.centered-img {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 50%; /* Hacer la imagen un poco más pequeña */
+    height: auto;
+}
+
+.trabajo-3-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Amarillo */
+}
+
+.fecha,
+.mecanico,
+.diagnostico,
+.materiales,
+.descripcion {
+    margin-bottom: 10px;
+}
+
+.materiales {
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #ffcc00; /* Amarillo */
+}
+
+a:hover {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+}
+
+.centered-img {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 50%; /* Hacer la imagen un poco más pequeña */
+    height: auto;
+}

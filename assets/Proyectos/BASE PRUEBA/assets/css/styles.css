@@ -1,0 +1,217 @@
+/* styles.css */
+*{
+
+    font-family: montserrat;
+
+
+
+}
+:root{
+    --color1:#343434;
+    --color2:#01d7f4;
+    --color3:#ffdf03;
+    --color4:#fd7b03;
+    --color5:#ff0014;
+    --color6:#fff;
+    --color7:#d2d2d2;
+    --color8:#480C6C;
+    --color9:#8A7131;
+}
+.cafe{
+    height: 60px;
+    background-color: var(--color9);
+    position: fixed;
+    padding-top: 20px;
+}
+.morado{
+    background-color: var(--color9);
+}
+.caja-nombre{
+    padding: 250px;
+    height: 150px;
+    background-color: var(--color9);
+}
+.caja-comentarios{
+    padding-top: 30px;
+    background-color: var(--color9);
+}
+.caja-correo{
+    padding: 30px;
+    background-color: var(--color9);  
+}
+.titulo-comentario{
+    height: 50px;
+    background-color: var(--color9);    
+}
+.caja-3img{
+    height: 350px;
+    background-color: var(--color9);
+    padding: 50px;
+}
+.barra-option{
+    background-color: var(--color9);
+}
+.Nosotros{
+    background-color: var(--color9);
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.Nosotros-text p {
+    font-size: 30px; /* Tamaño de fuente más grande */
+  }
+
+.Nosotros-text h2 {
+    font-size: 55px; /* Tamaño de fuente más grande */
+  }
+
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size : 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar.-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+
+.fecha {
+    font-size: 16px;
+    color: #333;
+}
+
+.mecanico {
+    font-size: 18px;
+    color: #555;
+}
+
+.diagnostico {
+    font-style: italic;
+}
+
+.materiales {
+    font-weight: bold;
+}
+
+.descripcion {
+    margin-top: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px; /* Separación entre la barra de navegación y la información */
+}
+
+.info-container {
+    padding: 20px; /* Añade un espacio interno al contenedor de información */
+}
+
+.photo-container {
+    text-align: center; /* Centra la imagen */
+    margin-top: 20px; /* Añade margen superior para separar la foto del contenido */
+}
+
+.centered-img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.trabajo-buttons-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+  /* === responsive css === */
+
+
+  @media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+  }
+  @media only screen and (max-width: 767px){
+
+    .imagen1{
+       width: 80px;
+       height: 150px;
+       padding-right: 10px;
+    }
+    .imagen2{
+        width: 80px;
+        height: 150px;
+        padding-right: 10px;
+     }
+     .imagen3{
+        width: 80px;
+        height: 150px;
+     }
+
+
+  }
